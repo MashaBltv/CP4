@@ -1,0 +1,9 @@
+name = 'Masha'
+surname = 'Bolotova'
+date=2002
+print(name, surname, str(date), sep='_')
+b=''
+b=name
+name=surname
+surname=b
+print(name, surname, date + 60, sep='_')
